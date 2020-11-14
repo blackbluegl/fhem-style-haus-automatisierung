@@ -17,16 +17,16 @@ a img { border: none; }
 
 article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary { display: block; }
 
-#logo { background: url(../hausautomatisierung-com/images/haus_automatisierung.png) no-repeat; height: 120px; margin-left: 40px; margin-top: 10px; position: fixed; width: 220px; top: 0; left: 0; }
+#logo { height: 50px; position: fixed; width: 220px; top: 0; left: 0; }
 #logo:after { color: #378cd2; content: "2.6"; opacity: 0.7; }
 
-body { background: #354d69 url(../hausautomatisierung-com/images/bg_wrapper.jpg) no-repeat center 0 fixed; color: #fff; font-family: 'Open Sans', sans-serif; font-size: 14px; margin: 0 auto; padding: 0; tab-size: 4; }
+body { background: #354d69 url(../hausautomatisierung-com/images/cp_background.jpg) no-repeat center 0 fixed; color: #fff; font-family: 'Open Sans', sans-serif; font-size: 14px; margin: 0 auto; padding: 0; tab-size: 4; }
 
 body[id~=Media] { background-color: #A5A5A5; font-family: Arial, sans-serif; font-size: 9px; background-image: url(../icons/Media.bak); background-repeat: no-repeat; }
 
-#menu { margin-left: 20px; margin-top: 140px; width: 260px; z-index: 9999; height: 100%; }
+#menu { margin-top: 50px; width: 260px; z-index: 9999; background: rgba(58, 58, 58, 0.51); border-radius: 0 5px 5px 0; }
 #menu table { border-collapse: collapse; border-radius: 0; width: 100%; }
-#menu a { background: #fff; color: #676f7a; display: block; padding: 10px 15px; position: relative; z-index: 9999; line-height: 15px; }
+#menu a { color: #e7f1ff; display: block; padding: 10px 15px; position: relative; line-height: 15px; }
 
 #backimg { position: absolute; top: 15px; left: 320px; }
 

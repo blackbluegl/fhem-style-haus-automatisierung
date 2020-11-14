@@ -6,10 +6,8 @@
 @import 'vars';
 
 #logo {
-    background: url(../hausautomatisierung-com/images/haus_automatisierung.png) no-repeat;
-    height: 120px;
-    margin-left: 40px;
-    margin-top: 10px;
+    //background: url(../hausautomatisierung-com/images/haus_automatisierung.png) no-repeat;
+    height: 50px;
     position: fixed;
     width: 220px;
     top: 0;
@@ -23,7 +21,7 @@
 }
 
 body {
-    background: #354d69 url(../hausautomatisierung-com/images/bg_wrapper.jpg) no-repeat center 0 fixed;
+    background: #354d69 url(../hausautomatisierung-com/images/cp_background.jpg) no-repeat center 0 fixed;
     color: #fff;
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
@@ -41,11 +39,11 @@ body[id~=Media] {
 }
 
 #menu {
-    margin-left: 20px;
-    margin-top: 140px;
+    margin-top: 50px;
     width: 260px;
     z-index: 9999;
-    height: 100%;
+    background: $menu-background;
+    border-radius: 0 5px 5px 0;
 
     table {
         border-collapse: collapse;
@@ -54,12 +52,10 @@ body[id~=Media] {
     }
 
     a {
-        background: #fff;
-        color: $secondary-color;
+        color: $menu-color;
         display: block;
         padding: 10px 15px;
         position: relative;
-        z-index: 9999;
         line-height: 15px;
     }
 }

@@ -1,8 +1,9 @@
 #menu {
-    margin-left: 20px;
-    margin-top: 140px;
+    margin-top: 50px;
     width: 260px;
     z-index: 9999;
+    background: $menu-background;
+    border-radius: 0 5px 5px 0;
     
     table {
         border-collapse: collapse;
@@ -11,8 +12,7 @@
     }
 
     a {
-        background: #fff;
-        color: $secondary-color;
+        color: $menu-color;
         display: block;
         padding: 10px 15px;
         position: relative;
@@ -58,6 +58,7 @@
         border: none;
         border-spacing: 0;
         margin-bottom: 10px;
+        border-bottom: 1px solid rgba(128, 128, 128, 0.32);
 
         .custom-menu-entry {
             color: $primary-color;
