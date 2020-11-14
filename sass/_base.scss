@@ -50,10 +50,10 @@ button.dist {
 
     #clock {
         font-size: 1.5em;
-        padding: 5px 10px;
-        background: #fffffff0;
+        padding: 10px 10px;
+        background: rgba(36, 41, 62, .85);
         box-shadow: 0 3px 3px #11111130;
-        border-radius: 0 0 4px 4px;
+        border-radius: 0 0 5px 0;
     }
 }
 
@@ -78,8 +78,8 @@ input[type="text"] {
 #hdr {
     left: 310px;
     position: fixed;
-    top: 0px;
-    background: #fffffff0;
+    top: 0;
+    background: rgba(36, 41, 62, .85);
     padding: 10px;
     z-index: 99;
     border-radius: 0 0 4px 4px;
