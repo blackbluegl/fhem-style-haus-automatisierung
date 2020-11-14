@@ -29,9 +29,9 @@ a { color: #378cd2; text-decoration: none; }
 
 button.dist { border: 0; cursor: pointer; margin: 10px; }
 
-#logo { height: 50px; position: fixed; width: 220px; z-index: 9999; }
+#logo { height: 50px; position: fixed; width: 290px; z-index: 9999; }
 #logo .theme-version { opacity: 0.7; }
-#logo #clock { font-size: 2em; padding: 15px; background: white; box-shadow: 0 3px 3px #11111130; border-radius: 0 0 4px 4px; }
+#logo #clock { font-size: 1.5em; padding: 5px 10px; background: #fffffff0; box-shadow: 0 3px 3px #11111130; border-radius: 0 0 4px 4px; }
 
 #content, #right { bottom: 20px; left: 180px; position: absolute; right: 10px; top: 50px; }
 
@@ -198,7 +198,7 @@ textarea#console { white-space: normal; margin-top: 10px; margin-bottom: 10px; b
 #dashboard-dialog .ui-tabs .ui-tabs-nav .ui-tabs-anchor { float: left; padding: .5em 1em; text-decoration: none; }
 #dashboard-dialog .ui-widget-header { background: #fff; color: #676f7a; padding: 5px; }
 
-#menu { margin-top: 50px; width: 260px; z-index: 9999; background: rgba(58, 58, 58, 0.51); border-radius: 0 5px 5px 0; }
+#menu { margin-top: 70px; width: 270px; z-index: 9999; background: rgba(58, 58, 58, 0.51); border-radius: 0 5px 5px 0; }
 #menu table { border-collapse: collapse; border-radius: 0; width: 100%; }
 #menu a { color: #e7f1ff; display: block; padding: 10px 15px; position: relative; line-height: 15px; }
 #menu .menuTree { position: relative; }

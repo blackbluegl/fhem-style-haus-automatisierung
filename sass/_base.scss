@@ -41,7 +41,7 @@ button.dist {
     //background: url(../hausautomatisierung-com/images/haus_automatisierung.png) no-repeat;
     height: 50px;
     position: fixed;
-    width: 220px;
+    width: 290px;
     z-index: 9999;
 
     .theme-version {
@@ -49,9 +49,9 @@ button.dist {
     }
 
     #clock {
-        font-size: 2em;
-        padding: 15px;
-        background: white;
+        font-size: 1.5em;
+        padding: 5px 10px;
+        background: #fffffff0;
         box-shadow: 0 3px 3px #11111130;
         border-radius: 0 0 4px 4px;
     }
