@@ -4,26 +4,26 @@ function GetClock() {
     nhour = d.getHours();
     nmin = d.getMinutes();
     if (nmin <= 9) { nmin = "0" + nmin; }
-    document.getElementById('logo').innerHTML = nhour + ":" + nmin;
+    document.getElementById('logo').innerHTML = "<div id='clock'>" + nhour + ":" + nmin + "</div>";
     setTimeout("GetClock()", 1000);
 }
 
 jQuery(document).ready(function ($) {
 
-    var themeVersion = '2.6';
+    //var themeVersion = '2.6';
 
-    // Add clock
+    // --- Add clock
     window.addEventListener("load",GetClock,false);
 
-    // Check für JS-Installation entfernen
+    // --- Check für JS-Installation entfernen
     $('#hdr').addClass('js-installed');
 
-    // Add version to logo
-    $('#logo').append(
-        $('<span class="theme-version">' + themeVersion + '</span>')
-    );
+    // --- Add version to logo
+    //$('#logo').append(
+    //    $('<span class="theme-version">' + themeVersion + '</span>')
+    //);
 
-	// Clear spaces
+	// --- Clear spaces
     $('#content .devType, #menu .room a').each(function() {
     	$(this).html($(this).html().replace(/&nbsp;/g, ''));
     });
@@ -31,10 +31,10 @@ jQuery(document).ready(function ($) {
     $('#content > br').remove();
     $('.makeSelect').parent().find('br').remove();
 
-    // Add missing classes for elements
+    // --- Add missing classes for elements
     $('.SVGplot').prevAll('a').addClass('plot-nav');
 
-    // Icon selection
+    // --- Icon selection
     $('button.dist').wrapAll('<div class="icons"/>');
     $('button.dist').css({width: '50px', height: '50px', margin: '5px', padding: '0'});
     $('button.dist > *').css({maxWidth: '40px', maxHeight: '40px', display: 'block', margin: '0px auto'});
@@ -50,14 +50,13 @@ jQuery(document).ready(function ($) {
         }
     });
 
-    // Links in der Navigation hinzufügen
-    var $navElement = jQuery('#menu .room').last().find('tbody');
+    // --- Links in der Navigation hinzufügen
+    //var $navElement = jQuery('#menu .room').last().find('tbody');
+    //$navElement.append(
+    //    $('<tr><td><div><a class="custom-menu-entry" href="https://github.com/klein0r/fhem-style-haus-automatisierung/issues/">Theme-Fehler melden (v' + themeVersion + ')</a></div></td></tr>')
+    //);
 
-    $navElement.append(
-        $('<tr><td><div><a class="custom-menu-entry" href="https://github.com/klein0r/fhem-style-haus-automatisierung/issues/">Theme-Fehler melden (v' + themeVersion + ')</a></div></td></tr>')
-    );
-
-    // Automatische Breite für HDR Input
+    // --- Automatische Breite für HDR Input
     $('#hdr input.maininput').css({width: $('#content').width() + 'px'});
     $(window).resize(function() {
         $('#hdr input.maininput').css({width: $('#content').width() + 'px'});
@@ -72,9 +71,9 @@ jQuery(document).ready(function ($) {
         $(this).parent().addClass('first-table-column');
     });
 
-    // hide elements by name
+    // --- hide elements by name
     if(document.URL.indexOf("showall") != -1) {
-        //don't hide anything
+        // don't hide anything
     } else {
         $("div.devType:contains('-hidden')").parent('td').hide();
     }
