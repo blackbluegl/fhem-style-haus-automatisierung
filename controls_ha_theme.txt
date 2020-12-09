@@ -21,11 +21,11 @@ UPD 2020-11-13_14:00:25 6250 www/images/hausautomatisierung_com/router.svg
 DEL ./www/images/hausautomatisierung_com/doorhandle.svg
 UPD 2020-11-13_14:00:25 2398 www/images/hausautomatisierung_com/doorhandle.svg
 DEL ./www/pgm2/hausautomatisierung_comstyle.css
-UPD 2020-12-09_17:32:38 27420 www/pgm2/hausautomatisierung_comstyle.css
+UPD 2020-12-09_17:40:00 27412 www/pgm2/hausautomatisierung_comstyle.css
 DEL ./www/pgm2/hausautomatisierung_comfloorplanstyle.css
-UPD 2020-12-09_17:32:38 4811 www/pgm2/hausautomatisierung_comfloorplanstyle.css
+UPD 2020-12-09_17:40:00 4811 www/pgm2/hausautomatisierung_comfloorplanstyle.css
 DEL ./www/pgm2/hausautomatisierung_comsvg_style.css
-UPD 2020-12-09_17:32:38 5011 www/pgm2/hausautomatisierung_comsvg_style.css
+UPD 2020-12-09_17:40:00 5011 www/pgm2/hausautomatisierung_comsvg_style.css
 DEL ./www/hausautomatisierung-com/images/homenet.png
 UPD 2020-12-09_17:13:04 9729346 www/hausautomatisierung-com/images/homenet.png
 DEL ./www/hausautomatisierung-com/images/cp_background.jpg

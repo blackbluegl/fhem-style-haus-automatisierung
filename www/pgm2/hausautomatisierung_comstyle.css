@@ -103,7 +103,7 @@ select { -webkit-appearance: none; -moz-appearance: none; appearance: none; back
 #content .SVGlabel { background: rgba(245, 246, 249, 0.06); padding: 5px; }
 #content .SVGplot { background: rgba(245, 246, 249, 0.06); padding: 10px; }
 #content .odd .SVGplot, #content .even .SVGplot { background: none !important; }
-#content .devType { font-size: 18px; text-transform: uppercase; letter-spacing: 3px; margin-top: 10px; background: #cccccc54; padding-right: 5px; text-align: right; color: #c0d7ea; text-shadow: -1px 0px 3px #84b4d0; }
+#content .devType { font-size: 18px; text-transform: uppercase; letter-spacing: 3px; margin-top: 10px; padding-right: 5px; text-align: right; color: #c0d7ea; border-bottom: 1px solid rgba(39, 83, 150, 0.68); }
 #content .devType a { color: #fff; }
 #content .odd .devType, #content .even .devType { color: #676f7a; margin-left: 5px; margin-bottom: 10px; }
 #content .odd .devType a, #content .even .devType a { color: #676f7a; }
