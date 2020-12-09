@@ -19,7 +19,7 @@ a img { border: none; }
 article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary { display: block; }
 
 /* Author: Matthias Kleine */
-body { background: #354d69 url(../hausautomatisierung-com/images/cp_background.jpg) no-repeat center 0 fixed; background-size: cover; background-position: top center; color: #fff; font-family: 'Open Sans', sans-serif; font-size: 1em; margin: 0 auto; padding: 0; tab-size: 4; }
+body { background: #354d69 url(../hausautomatisierung-com/images/homenet.png) no-repeat center 0 fixed; background-size: cover; background-position: top center; color: #fff; font-family: 'Open Sans', sans-serif; font-size: 1em; margin: 0 auto; padding: 0; tab-size: 4; }
 
 body.dashboard_fullsize #content { border: none !important; float: none !important; height: 100% !important; overflow: visible !important; padding: 0 !important; position: inherit !important; width: 100% !important; }
 
