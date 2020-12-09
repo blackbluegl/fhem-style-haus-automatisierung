@@ -67,7 +67,7 @@ select { -webkit-appearance: none; -moz-appearance: none; appearance: none; back
 #content .makeTable .slider { height: 16px; }
 #content .makeTable .slider .handle { height: 16px; line-height: 16px; }
 #content .slider { width: 350px; border: 1px #378cd2 solid; }
-#content .slider .handle { -moz-user-select: none; -user-select: none; -webkit-user-select: none; background: #378cd2; color: #f5f6f9; cursor: pointer; position: relative; text-align: center; width: 40px; }
+#content .slider .handle { -moz-user-select: none; -user-select: none; -webkit-user-select: none; background: #378cd2; color: rgba(245, 246, 249, 0.06); cursor: pointer; position: relative; text-align: center; width: 40px; }
 #content .colorpicker_ct .slider { background: url(../jscolor/ct_background.svg); background-size: 150px; }
 #content .colorpicker_ct_mired .slider { background: url(../jscolor/ct_mired_background.svg); background-size: 150px; }
 #content .colorpicker_hue .slider { background: url(../jscolor/hue_background.svg); background-size: 150px; }
@@ -79,7 +79,7 @@ select { -webkit-appearance: none; -moz-appearance: none; appearance: none; back
 #content .makeSelect select { background-image: linear-gradient(45deg, transparent 50%, gray 50%), linear-gradient(135deg, gray 50%, transparent 50%), linear-gradient(to right, #ccc, #ccc); background-position: calc(100% - 20px) calc(0.5em), calc(100% - 15px) calc(0.5em), calc(100% - 2.5em) 0.2em; background-size: 5px 5px, 5px 5px, 1px 0.9em; background-repeat: no-repeat; border: 1px #378cd2 solid; border-radius: 0; color: #378cd2; font-size: 16px; line-height: 20px; height: 24px; margin-left: 5px; margin-right: 5px; padding: 0 10px; min-width: 200px; }
 #content .makeSelect input[type="submit"] { border: 1px #378cd2 solid; border-radius: 0; color: #378cd2; padding: 1px 10px; background: transparent; font-size: 1.1em; height: 24px; }
 #content .makeSelect input[type="text"] { border: 1px #378cd2 solid; color: #555; background: transparent; font-size: 1.1em; height: 20px; }
-#content .makeSelect + .makeSelect { border-top: 1px solid #f5f6f9; }
+#content .makeSelect + .makeSelect { border-top: 1px solid rgba(245, 246, 249, 0.06); }
 #content .makeSelect + .makeTable { margin-top: 10px; }
 #content .makeSelect .slider { width: 250px; height: 22px; }
 #content .makeSelect .slider .handle { height: 22px; line-height: 22px; }
@@ -87,12 +87,12 @@ select { -webkit-appearance: none; -moz-appearance: none; appearance: none; back
 #content table.wide { width: 100%; }
 #content table select { background-image: linear-gradient(45deg, transparent 50%, gray 50%), linear-gradient(135deg, gray 50%, transparent 50%), linear-gradient(to right, #ccc, #ccc); background-position: calc(100% - 15px) calc(0.5em + 1px), calc(100% - 10px) calc(0.5em + 1px), calc(100% - 2em) 0.4em; background-size: 5px 5px, 5px 5px, 1px 0.9em; background-repeat: no-repeat; border: 1px #378cd2 solid; border-radius: 0; color: #378cd2; font-size: 100%; line-height: 20px; padding: 0 0px 0 10px; min-width: 90px; max-width: 300px; }
 #content table .slider { width: 150px; }
-#content table.block { background: #fff; border: none; color: #676f7a; }
+#content table.block { background: rgba(0, 0, 0, 0.73); border: none; color: #676f7a; box-shadow: 0 2px 5px 1px rgba(0, 0, 0, 0.56); }
 #content table.block.readings .changed { color: #378cd2; }
 #content table.block.readings .changed:after { content: ' !!!'; }
 #content table .no-background { background: none !important; }
 #content table.block td:nth-child(1) { white-space: nowrap; }
-#content table.block tr.odd { background: #f5f6f9; }
+#content table.block tr.odd { background: rgba(245, 246, 249, 0.06); }
 #content table.readings td:nth-child(2) { word-break: break-all; }
 #content table tr.odd > td, #content table tr.even > td { padding: 5px; }
 #content table .ex { white-space: normal; }
@@ -100,8 +100,8 @@ select { -webkit-appearance: none; -moz-appearance: none; appearance: none; back
 #content #pedit { margin-bottom: 10px; text-transform: uppercase; font-size: 1.1em; letter-spacing: 10px; }
 #content #pedit > * { text-transform: none; font-size: 1em; letter-spacing: normal; }
 #content #pedit .plotEditor select.svgSrc, #content #pedit .plotEditor select.set { border: 1px #378cd2 solid; border-radius: 0; color: #378cd2; }
-#content .SVGlabel { background: #f5f6f9; padding: 5px; }
-#content .SVGplot { background: #f5f6f9; padding: 10px; }
+#content .SVGlabel { background: rgba(245, 246, 249, 0.06); padding: 5px; }
+#content .SVGplot { background: rgba(245, 246, 249, 0.06); padding: 10px; }
 #content .odd .SVGplot, #content .even .SVGplot { background: none !important; }
 #content .devType { font-size: 18px; text-transform: uppercase; letter-spacing: 3px; margin-top: 10px; background: #cccccc54; padding-right: 5px; text-align: right; color: #c0d7ea; text-shadow: -1px 0px 3px #84b4d0; }
 #content .devType a { color: #fff; }
@@ -219,7 +219,7 @@ svg { width: 32px; height: 32px; vertical-align: middle; }
 
 svg.on, svg.FS20_on { fill: #378cd2 !important; }
 
-#ZWDongleNrSVG { background: #f5f6f9; margin-bottom: 10px; margin-top: 10px; border-left: 5px #378cd2 solid; border-right: 5px #378cd2 solid; box-sizing: border-box; width: 1000px !important; }
+#ZWDongleNrSVG { background: rgba(245, 246, 249, 0.06); margin-bottom: 10px; margin-top: 10px; border-left: 5px #378cd2 solid; border-right: 5px #378cd2 solid; box-sizing: border-box; width: 1000px !important; }
 
 svg.zw_nr { fill: transparent !important; }
 svg.zw_nr text { fill: #378cd2; }
@@ -238,7 +238,7 @@ svg:not([fill]):not(.jssvg) { fill: #676f7a; }
 
 .ui-button { border-radius: 0 !important; color: #378cd2 !important; }
 
-.ui-dialog-titlebar { display: block !important; border: none !important; border-radius: 0 !important; background: #f5f6f9 !important; }
+.ui-dialog-titlebar { display: block !important; border: none !important; border-radius: 0 !important; background: rgba(245, 246, 249, 0.06) !important; }
 
 #dashboard .ui-widget-content a, #dashboard .fhemlog, #dashboard #fwmenu li a { color: #378cd2 !important; }
 #dashboard .ui-corner-all, #dashboard .ui-corner-top, #dashboard .ui-corner-right, #dashboard .ui-corner-left, #dashboard .ui-corner-bottom, #dashboard .ui-corner-bl, #dashboard .ui-corner-br, #dashboard .ui-corner-tl, #dashboard .ui-corner-tr { border-radius: 0 !important; border-bottom-right-radius: 0 !important; border-bottom-left-radius: 0 !important; border-top-right-radius: 0 !important; border-top-left-radius: 0 !important; }

@@ -230,9 +230,10 @@
         }
 
         &.block {
-            background: #fff;
+            background: $table-color;
             border: none;
             color: $secondary-color;
+            box-shadow: 0 2px 5px 1px rgba(0, 0, 0, .56);
 
             &.readings {
                 .changed {
