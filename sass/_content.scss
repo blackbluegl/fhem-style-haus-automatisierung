@@ -246,8 +246,10 @@
                 }
             }
 
-            &.readingsGroup {
-                background: transparent;
+            table {
+                &.readingsGroup {
+                    background: transparent;
+                }    
             }
         }
 

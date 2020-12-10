@@ -90,7 +90,7 @@ select { -webkit-appearance: none; -moz-appearance: none; appearance: none; back
 #content table.block { background: rgba(0, 0, 0, 0.73); border: none; color: #a4bee2; box-shadow: 0 2px 5px 1px rgba(0, 0, 0, 0.56); }
 #content table.block.readings .changed { color: #94e06e; }
 #content table.block.readings .changed:after { content: ' !!!'; }
-#content table.block.readingsGroup { background: transparent; }
+#content table.block table.readingsGroup { background: transparent; }
 #content table .no-background { background: none !important; }
 #content table.block td:nth-child(1) { white-space: nowrap; }
 #content table.block tr.odd { background: rgba(245, 246, 249, 0.06); }
@@ -198,7 +198,7 @@ textarea#console { white-space: normal; margin-top: 10px; margin-bottom: 10px; b
 #dashboard-dialog .ui-tabs .ui-tabs-nav .ui-tabs-anchor { float: left; padding: .5em 1em; text-decoration: none; }
 #dashboard-dialog .ui-widget-header { background: #fff; color: #a4bee2; padding: 5px; }
 
-#menu { margin-top: 70px; width: 270px; z-index: 9999; background: rgba(58, 58, 58, 0.51); border-radius: 0 5px 5px 0; }
+#menu { margin-top: 0; width: 270px; z-index: 9999; background: rgba(58, 58, 58, 0.51); border-radius: 0; }
 #menu table { border-collapse: collapse; border-radius: 0; width: 100%; }
 #menu a { color: #e7f1ff; display: block; padding: 10px 15px; position: relative; line-height: 15px; }
 #menu .menuTree { position: relative; }
