@@ -68,7 +68,8 @@ select { -webkit-appearance: none; -moz-appearance: none; appearance: none; back
 #content .makeTable .slider .handle { height: 16px; line-height: 16px; }
 #content .slider { width: 350px; border: 1px #94e06e solid; }
 #content .slider .handle { -moz-user-select: none; -user-select: none; -webkit-user-select: none; background: #94e06e; color: rgba(245, 246, 249, 0.06); cursor: pointer; position: relative; text-align: center; width: 40px; }
-#content .colorpicker_widget input { padding: 7px 7px 5px; font-size: inherit; border: none; border-radius: 5px; box-shadow: inset 0px 1px 3px rgba(0, 0, 0, 0.941); }
+#content .colorpicker_widget input { padding: 7px 7px 5px; font-size: inherit; border: none; border-radius: 5px; box-shadow: inset 0px 1px 3px rgba(0, 0, 0, 0.692); }
+#content .colorpicker_widget input:focus { border: none; }
 #content .colorpicker_ct .slider { background: url(../jscolor/ct_background.svg); background-size: 150px; }
 #content .colorpicker_ct_mired .slider { background: url(../jscolor/ct_mired_background.svg); background-size: 150px; }
 #content .colorpicker_hue .slider { background: url(../jscolor/hue_background.svg); background-size: 150px; }

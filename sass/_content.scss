@@ -102,7 +102,10 @@
             font-size: inherit;
             border: none;
             border-radius: 5px;
-            box-shadow: inset 0px 1px 3px rgba(0, 0, 0, 0.941);
+            box-shadow: inset 0px 1px 3px rgba(0, 0, 0, 0.692);
+        }
+        input:focus {
+            border: none;
         }
     }
     .colorpicker_ct .slider {
