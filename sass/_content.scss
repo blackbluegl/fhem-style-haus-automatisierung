@@ -43,8 +43,16 @@
         overflow-x: auto;
 
         .mkTitle {
-          padding-left: 5px;
+          font-size: 18px;
+          text-transform: uppercase;
+          letter-spacing: 3px;
+          margin-top: 10px;
+          padding-right: 5px;
+          text-align: right;
+          color: #c0d7ea;
+          border-bottom: 1px solid rgba(39, 83, 150, 0.68);
         }
+
         .first-table-column {
             width: 250px;
             border-right: 2px $primary-color solid;
@@ -273,6 +281,7 @@
 
         &.block td:nth-child(1) {
             white-space: nowrap;
+            width: 300px;
         }
 
         &.block tr.odd {

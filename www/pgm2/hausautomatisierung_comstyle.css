@@ -59,7 +59,7 @@ select { -webkit-appearance: none; -moz-appearance: none; appearance: none; back
 #content .roomoverview .first-table-column { width: 25%; border-right: 2px #94e06e solid; }
 #content .modCmdinput[type="submit"] { border: 1px #94e06e solid; border-radius: 0; color: #94e06e; padding: 1px 10px; background: transparent; font-size: 1.1em; }
 #content .makeTable { clear: left; display: inline; float: left; width: 100%; font-size: 1.1em; text-transform: uppercase; letter-spacing: 10px; overflow-x: auto; }
-#content .makeTable .mkTitle { padding-left: 5px; }
+#content .makeTable .mkTitle { font-size: 18px; text-transform: uppercase; letter-spacing: 3px; margin-top: 10px; padding-right: 5px; text-align: right; color: #c0d7ea; border-bottom: 1px solid rgba(39, 83, 150, 0.68); }
 #content .makeTable .first-table-column { width: 250px; border-right: 2px #94e06e solid; }
 #content .makeTable table { font-size: 1em; text-transform: none; letter-spacing: normal; }
 #content .makeTable + .makeTable { margin-top: 10px; }
@@ -94,7 +94,7 @@ select { -webkit-appearance: none; -moz-appearance: none; appearance: none; back
 #content table.block.readings .changed:after { content: ' !!!'; }
 #content table.block table.readingsGroup { background: transparent; }
 #content table .no-background { background: none !important; }
-#content table.block td:nth-child(1) { white-space: nowrap; }
+#content table.block td:nth-child(1) { white-space: nowrap; width: 300px; }
 #content table.block tr.odd { background: rgba(245, 246, 249, 0.06); }
 #content table.readings td:nth-child(2) { word-break: break-all; }
 #content table tr.odd > td, #content table tr.even > td { padding: 5px; }
