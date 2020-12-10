@@ -1,5 +1,18 @@
+
+.ui-widget {
+    font-size: inherit;
+}
+
+.ui-state-active, 
+.ui-widget-content .ui-state-active, 
+.ui-widget-header .ui-state-active {
+    border: 1px solid rgba(36, 41, 62, 0.85);
+    background: rgba(0, 0, 0, 0.24);
+    font-weight: inherit;
+}
+
 .ui-dialog {
-    background: #fff !important;
+    background: rgba(83, 84, 94, 0.87) !important;
     border: 2px solid $primary-color !important;
     padding: .2em !important;
     border-radius: 0 !important;
@@ -8,7 +21,7 @@
 }
 
 .ui-widget-content {
-    background: #fff !important;
+    background: rgba(0, 0, 0, 0.24) !important;
     
     pre {
         font-family: 'Source Code Pro', monospace !important;

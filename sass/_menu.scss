@@ -94,14 +94,13 @@
         tr.sel {
             a {
               background: $primary-color;
-              color: #fff;
+              color: $primary-color-dk;
               border-top: 1px solid $primary-color-dk;
               border-bottom: 1px solid $primary-color-dk;
-
             }
 
             svg.icon {
-                fill: #fff;
+                fill: $primary-color-dk;
             }
 
             td a:after {

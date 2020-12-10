@@ -210,8 +210,8 @@ textarea#console { white-space: normal; margin-top: 10px; margin-bottom: 10px; b
 #menu table.room img.icon, #menu table.room svg.icon { width: 20px; height: 20px; margin: 0; position: absolute; right: 10px; top: 7px; }
 #menu table.room #saveCheck { margin-top: -35px; background: transparent; color: red; border-right: 5px #94e06e solid; border-left: 5px #94e06e solid; text-indent: -9999px; margin-left: 220px; }
 #menu table.room tr a { border-top: 1px solid transparent; border-bottom: 1px solid transparent; }
-#menu table.room tr.sel a { background: #94e06e; color: #fff; border-top: 1px solid #4b6d39; border-bottom: 1px solid #4b6d39; }
-#menu table.room tr.sel svg.icon { fill: #fff; }
+#menu table.room tr.sel a { background: #94e06e; color: #4b6d39; border-top: 1px solid #4b6d39; border-bottom: 1px solid #4b6d39; }
+#menu table.room tr.sel svg.icon { fill: #4b6d39; }
 #menu table.room tr.sel td a:after { border-bottom: 17px solid transparent; border-left: 13px solid #94e06e; border-top: 17px solid transparent; content: " "; height: 0; margin-top: -17px; position: absolute; right: -13px; top: 50%; width: 0; }
 
 #menuScrollArea { height: 100%; top: 0; left: 0; overflow: auto; position: relative; width: 300px; }
@@ -232,9 +232,13 @@ svg.zw_nr .zwDongle { stroke-width: 3px; }
 
 svg:not([fill]):not(.jssvg) { fill: #a4bee2; }
 
-.ui-dialog { background: #fff !important; border: 2px solid #94e06e !important; padding: .2em !important; border-radius: 0 !important; color: #a4bee2 !important; padding: 0 !important; }
+.ui-widget { font-size: inherit; }
 
-.ui-widget-content { background: #fff !important; }
+.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active { border: 1px solid rgba(36, 41, 62, 0.85); background: rgba(0, 0, 0, 0.24); font-weight: inherit; }
+
+.ui-dialog { background: rgba(83, 84, 94, 0.87) !important; border: 2px solid #94e06e !important; padding: .2em !important; border-radius: 0 !important; color: #a4bee2 !important; padding: 0 !important; }
+
+.ui-widget-content { background: rgba(0, 0, 0, 0.24) !important; }
 .ui-widget-content pre { font-family: 'Source Code Pro', monospace !important; }
 
 .ui-button { border-radius: 0 !important; color: #94e06e !important; }
