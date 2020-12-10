@@ -22,14 +22,13 @@
 }
 
 .ui-widget-content {
-    background: rgba(0, 0, 0, 0.24) !important;
-
     pre {
         font-family: 'Source Code Pro', monospace !important;
     }
 }
 
 .ui-button {
+    background: rgba(0, 0, 0, 0.24) !important;
     border-radius: 0 !important;
     color: $primary-color !important;
 }

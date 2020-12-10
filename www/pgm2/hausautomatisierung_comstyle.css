@@ -240,10 +240,9 @@ svg:not([fill]):not(.jssvg) { fill: #a4bee2; }
 
 .ui-dialog { background: rgba(223, 223, 230, 0.87) !important; border: 2px solid #94e06e !important; padding: .2em !important; border-radius: 0 !important; color: #a4bee2 !important; padding: 0 !important; }
 
-.ui-widget-content { background: rgba(0, 0, 0, 0.24) !important; }
 .ui-widget-content pre { font-family: 'Source Code Pro', monospace !important; }
 
-.ui-button { border-radius: 0 !important; color: #94e06e !important; }
+.ui-button { background: rgba(0, 0, 0, 0.24) !important; border-radius: 0 !important; color: #94e06e !important; }
 
 .ui-dialog-titlebar { display: block !important; border: none !important; border-radius: 0 !important; background: rgba(245, 246, 249, 0.06) !important; }
 
