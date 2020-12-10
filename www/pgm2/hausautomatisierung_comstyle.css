@@ -53,7 +53,6 @@ embed { margin-bottom: 10px; }
 
 select { -webkit-appearance: none; -moz-appearance: none; appearance: none; background-color: transparent; }
 
-#content td { vertical-align: top; }
 #content .get, #content .set, #content .attr { float: left; }
 #content pre { font-family: 'Source Code Pro', monospace !important; white-space: pre-wrap; }
 #content .roomoverview .icon { margin-right: 5px; }
