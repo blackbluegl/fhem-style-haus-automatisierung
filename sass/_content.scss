@@ -1,5 +1,8 @@
 #content {
     //max-width: 1000px;
+    td {
+        vertical-align: top;
+    }
 
     .get, .set, .attr {
         float: left;
@@ -166,6 +169,7 @@
         .downText {
             line-height: 24px;
             font-family: 'Source Code Pro', monospace !important;
+            min-width: 260px;
         }
 
         select {
