@@ -59,7 +59,7 @@ select { -webkit-appearance: none; -moz-appearance: none; appearance: none; back
 #content .roomoverview .first-table-column { width: 25%; border-right: 2px #94e06e solid; }
 #content .modCmdinput[type="submit"] { border: 1px #94e06e solid; border-radius: 0; color: #94e06e; padding: 1px 10px; background: transparent; font-size: 1.1em; }
 #content .makeTable { clear: left; display: inline; float: left; width: 100%; font-size: 1.1em; text-transform: uppercase; letter-spacing: 10px; overflow-x: auto; }
-#content .makeTable .mkTitle { font-size: 18px; text-transform: uppercase; letter-spacing: 3px; margin-top: 10px; padding-right: 5px; text-align: right; color: #c0d7ea; border-bottom: 1px solid rgba(39, 83, 150, 0.68); }
+#content .makeTable .mkTitle { font-size: 18px; text-transform: uppercase; letter-spacing: 3px; margin-top: 10px; padding-right: 5px; text-align: right; color: #c0d7ea; border-bottom: 1px solid rgba(39, 83, 150, 0.68); float: right; width: 100%; }
 #content .makeTable .first-table-column { width: 250px; border-right: 2px #94e06e solid; }
 #content .makeTable table { font-size: 1em; text-transform: none; letter-spacing: normal; }
 #content .makeTable + .makeTable { margin-top: 10px; }
@@ -76,11 +76,11 @@ select { -webkit-appearance: none; -moz-appearance: none; appearance: none; back
 #content .dval > table { margin-bottom: 10px; }
 #content .dval > table .downText { line-height: 24px; font-family: 'Source Code Pro', monospace !important; }
 #content .dval input { border: 1px #94e06e solid; border-radius: 0; color: #94e06e; padding: 1px 10px; background: transparent; font-size: 1.1em; }
-#content .makeSelect { background: rgba(0, 0, 0, 0.73); box-sizing: border-box; clear: left; color: #a4bee2; display: inline; float: left; padding: 5px; width: 100%; }
+#content .makeSelect { background: rgba(0, 0, 0, 0.73); box-sizing: border-box; clear: left; color: #a4bee2; display: inline; float: left; padding: 5px; width: 100%; box-shadow: 0 2px 5px 1px rgba(0, 0, 0, 0.56); }
 #content .makeSelect .downText { line-height: 24px; font-family: 'Source Code Pro', monospace !important; }
 #content .makeSelect select { background-image: linear-gradient(45deg, transparent 50%, gray 50%), linear-gradient(135deg, gray 50%, transparent 50%), linear-gradient(to right, #ccc, #ccc); background-position: calc(100% - 20px) calc(0.5em), calc(100% - 15px) calc(0.5em), calc(100% - 2.5em) 0.2em; background-size: 5px 5px, 5px 5px, 1px 0.9em; background-repeat: no-repeat; border: 1px #94e06e solid; border-radius: 0; color: #94e06e; font-size: 16px; line-height: 20px; height: 24px; margin-left: 5px; margin-right: 5px; padding: 0 10px; min-width: 200px; }
 #content .makeSelect input[type="submit"] { border: 1px #94e06e solid; border-radius: 0; color: #94e06e; padding: 1px 10px; background: transparent; font-size: 1.1em; height: 24px; }
-#content .makeSelect input[type="text"] { border: 1px #94e06e solid; color: #555; background: transparent; font-size: 1.1em; height: 20px; }
+#content .makeSelect input[type="text"] { border: 1px #94e06e solid; color: #94e06e; background: transparent; font-size: 1.1em; height: 20px; }
 #content .makeSelect + .makeSelect { border-top: 1px solid rgba(245, 246, 249, 0.06); }
 #content .makeSelect + .makeTable { margin-top: 10px; }
 #content .makeSelect .slider { width: 250px; height: 22px; }
@@ -110,8 +110,8 @@ select { -webkit-appearance: none; -moz-appearance: none; appearance: none; back
 #content .devType a { color: #fff; }
 #content .odd .devType, #content .even .devType { color: #a4bee2; margin-left: 5px; margin-bottom: 10px; }
 #content .odd .devType a, #content .even .devType a { color: #a4bee2; }
-#content .detLink { background: #00000061; border: 1px #94e06e solid; padding: 2px 10px; display: inline-block; margin-top: 10px; line-height: 20px; margin-right: 10px; margin-bottom: 20px; vertical-align: top; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; }
-#content .detLink a { text-shadow: 0 0 13px #fff; color: #bdeca5; }
+#content .detLink { background: rgba(0, 0, 0, 0.38); padding: 2px 10px; display: inline-block; margin-top: 10px; line-height: 20px; margin-right: 10px; margin-bottom: 20px; vertical-align: top; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; }
+#content .detLink a { color: #bdeca5; }
 #content #devSpecHelp { background: #fff; border-left: 5px #94e06e solid; color: #a4bee2; font-family: 'Source Code Pro', monospace !important; max-width: 985px; padding: 5px; width: 100%; margin-top: 10px; }
 #content #devSpecHelp h3 { font-size: 16px; letter-spacing: 10px; text-transform: uppercase; font-weight: bold; }
 #content #devSpecHelp dd { margin-left: 50px; }
@@ -238,7 +238,7 @@ svg:not([fill]):not(.jssvg) { fill: #a4bee2; }
 
 .ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active { border: 1px solid rgba(36, 41, 62, 0.85) !important; background: rgba(0, 0, 0, 0.24) !important; font-weight: inherit !important; }
 
-.ui-dialog { background: rgba(83, 84, 94, 0.87) !important; border: 2px solid #94e06e !important; padding: .2em !important; border-radius: 0 !important; color: #a4bee2 !important; padding: 0 !important; }
+.ui-dialog { background: rgba(223, 223, 230, 0.87) !important; border: 2px solid #94e06e !important; padding: .2em !important; border-radius: 0 !important; color: #a4bee2 !important; padding: 0 !important; }
 
 .ui-widget-content { background: rgba(0, 0, 0, 0.24) !important; }
 .ui-widget-content pre { font-family: 'Source Code Pro', monospace !important; }

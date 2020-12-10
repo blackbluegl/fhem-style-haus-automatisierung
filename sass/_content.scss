@@ -43,14 +43,16 @@
         overflow-x: auto;
 
         .mkTitle {
-          font-size: 18px;
-          text-transform: uppercase;
-          letter-spacing: 3px;
-          margin-top: 10px;
-          padding-right: 5px;
-          text-align: right;
-          color: #c0d7ea;
-          border-bottom: 1px solid rgba(39, 83, 150, 0.68);
+            font-size: 18px;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            margin-top: 10px;
+            padding-right: 5px;
+            text-align: right;
+            color: #c0d7ea;
+            border-bottom: 1px solid rgba(39, 83, 150, 0.68);
+            float: right;
+            width: 100%;
         }
 
         .first-table-column {
@@ -160,6 +162,7 @@
         float: left;
         padding: 5px;
         width: 100%;
+        box-shadow: 0 2px 5px 1px rgba(0, 0, 0, .56);
 
         .downText {
             line-height: 24px;
@@ -196,7 +199,7 @@
 
         input[type="text"] {
           border: 1px $primary-color solid;
-          color: #555;
+          color: $primary-color;
           background: transparent;
           font-size: $large-fontsize;
           height: 20px;
@@ -371,8 +374,7 @@
     }
 
     .detLink {
-      background: #00000061;
-      border: 1px $primary-color solid;
+      background: rgba(0, 0, 0, 0.38);
       padding: 2px 10px;
       display: inline-block;
       margin-top: 10px;
@@ -385,7 +387,6 @@
       border-radius: 3px;
 
       a {
-        text-shadow: 0 0 13px #fff;
         color: $primary-color-lt;
       }
     }
