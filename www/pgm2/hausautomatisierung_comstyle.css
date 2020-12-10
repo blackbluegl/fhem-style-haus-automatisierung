@@ -68,6 +68,7 @@ select { -webkit-appearance: none; -moz-appearance: none; appearance: none; back
 #content .makeTable .slider .handle { height: 16px; line-height: 16px; }
 #content .slider { width: 350px; border: 1px #94e06e solid; }
 #content .slider .handle { -moz-user-select: none; -user-select: none; -webkit-user-select: none; background: #94e06e; color: rgba(245, 246, 249, 0.06); cursor: pointer; position: relative; text-align: center; width: 40px; }
+#content .colorpicker_widget input { padding: 7px 7px 5px; font-size: inherit; border: none; border-radius: 5px; box-shadow: inset 0px 1px 3px rgba(0, 0, 0, 0.941); }
 #content .colorpicker_ct .slider { background: url(../jscolor/ct_background.svg); background-size: 150px; }
 #content .colorpicker_ct_mired .slider { background: url(../jscolor/ct_mired_background.svg); background-size: 150px; }
 #content .colorpicker_hue .slider { background: url(../jscolor/hue_background.svg); background-size: 150px; }
@@ -232,9 +233,9 @@ svg.zw_nr .zwDongle { stroke-width: 3px; }
 
 svg:not([fill]):not(.jssvg) { fill: #a4bee2; }
 
-.ui-widget { font-size: inherit; }
+.ui-widget { font-size: inherit !important; font-family: 'Source Code Pro', monospace !important; }
 
-.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active { border: 1px solid rgba(36, 41, 62, 0.85); background: rgba(0, 0, 0, 0.24); font-weight: inherit; }
+.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active { border: 1px solid rgba(36, 41, 62, 0.85) !important; background: rgba(0, 0, 0, 0.24) !important; font-weight: inherit !important; }
 
 .ui-dialog { background: rgba(83, 84, 94, 0.87) !important; border: 2px solid #94e06e !important; padding: .2em !important; border-radius: 0 !important; color: #a4bee2 !important; padding: 0 !important; }
 

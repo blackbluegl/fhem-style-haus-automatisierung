@@ -95,6 +95,16 @@
         }
     }
 
+    .colorpicker_widget {
+
+        input{
+            padding: 7px 7px 5px;
+            font-size: inherit;
+            border: none;
+            border-radius: 5px;
+            box-shadow: inset 0px 1px 3px rgba(0, 0, 0, 0.941);
+        }
+    }
     .colorpicker_ct .slider {
         background: url(../jscolor/ct_background.svg); background-size: 150px;
     }
