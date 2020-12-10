@@ -1,4 +1,5 @@
 
+/*
 function GetClock() {
     d = new Date();
     nhour = d.getHours();
@@ -7,13 +8,14 @@ function GetClock() {
     document.getElementById('logo').innerHTML = "<div id='clock'>" + nhour + ":" + nmin + "</div>";
     setTimeout("GetClock()", 1000);
 }
+*/
 
 jQuery(document).ready(function ($) {
 
     //var themeVersion = '2.6';
 
     // --- Add clock
-    window.addEventListener("load",GetClock,false);
+    //window.addEventListener("load",GetClock,false);
 
     // --- Check für JS-Installation entfernen
     $('#hdr').addClass('js-installed');

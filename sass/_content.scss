@@ -204,6 +204,7 @@
         border-collapse: collapse;
 //        max-width: 1000px;
         width: 100%;
+        margin-bottom: 10px;
 
         &.wide {
             width: 100%;
@@ -243,6 +244,10 @@
                         content: ' !!!';
                     }
                 }
+            }
+
+            &.readingsGroup {
+                background: transparent;
             }
         }
 
