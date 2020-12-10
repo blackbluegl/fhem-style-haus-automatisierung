@@ -54,15 +54,14 @@ embed { margin-bottom: 10px; }
 select { -webkit-appearance: none; -moz-appearance: none; appearance: none; background-color: transparent; }
 
 #content .get, #content .set, #content .attr { float: left; }
-#content pre { font-family: 'Source Code Pro', monospace !important; }
+#content pre { font-family: 'Source Code Pro', monospace !important; white-space: pre-wrap; }
 #content .roomoverview .icon { margin-right: 5px; }
 #content .roomoverview .first-table-column { width: 25%; border-right: 2px #94e06e solid; }
 #content .modCmdinput[type="submit"] { border: 1px #94e06e solid; border-radius: 0; color: #94e06e; padding: 1px 10px; background: transparent; font-size: 1.1em; }
-#content .makeTable { clear: left; display: inline; float: left; width: 100%; font-size: 1.1em; text-transform: uppercase; letter-spacing: 10px; overflow-x: scroll; }
+#content .makeTable { clear: left; display: inline; float: left; width: 100%; font-size: 1.1em; text-transform: uppercase; letter-spacing: 10px; overflow-x: auto; }
 #content .makeTable .mkTitle { padding-left: 5px; }
-#content .makeTable .first-table-column { width: 25%; border-right: 2px #94e06e solid; }
+#content .makeTable .first-table-column { width: 250px; border-right: 2px #94e06e solid; }
 #content .makeTable table { font-size: 1em; text-transform: none; letter-spacing: normal; }
-#content .makeTable table.block td:nth-child(2) { width: 60%; }
 #content .makeTable + .makeTable { margin-top: 10px; }
 #content .makeTable .slider { height: 16px; }
 #content .makeTable .slider .handle { height: 16px; line-height: 16px; }
@@ -73,6 +72,7 @@ select { -webkit-appearance: none; -moz-appearance: none; appearance: none; back
 #content .colorpicker_ct .slider { background: url(../jscolor/ct_background.svg); background-size: 150px; }
 #content .colorpicker_ct_mired .slider { background: url(../jscolor/ct_mired_background.svg); background-size: 150px; }
 #content .colorpicker_hue .slider { background: url(../jscolor/hue_background.svg); background-size: 150px; }
+#content .dval { overflow-wrap: anywhere; white-space: normal; }
 #content .dval > table { margin-bottom: 10px; }
 #content .dval > table .downText { line-height: 24px; font-family: 'Source Code Pro', monospace !important; }
 #content .dval input { border: 1px #94e06e solid; border-radius: 0; color: #94e06e; padding: 1px 10px; background: transparent; font-size: 1.1em; }
