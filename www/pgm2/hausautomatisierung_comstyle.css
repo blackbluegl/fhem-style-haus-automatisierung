@@ -200,7 +200,7 @@ textarea#console { white-space: normal; margin-top: 10px; margin-bottom: 10px; b
 #dashboard-dialog .ui-tabs .ui-tabs-nav .ui-tabs-anchor { float: left; padding: .5em 1em; text-decoration: none; }
 #dashboard-dialog .ui-widget-header { background: #fff; color: #a4bee2; padding: 5px; }
 
-#menu { margin-top: 0; width: 270px; z-index: 9999; background: rgba(58, 58, 58, 0.51); border-radius: 0; }
+#menu { margin-top: 50px; width: 270px; z-index: 9999; background: rgba(58, 58, 58, 0.51); border-radius: 0; }
 #menu table { border-collapse: collapse; border-radius: 0; width: 100%; }
 #menu a { color: #e7f1ff; display: block; padding: 10px 15px; position: relative; line-height: 15px; }
 #menu .menuTree { position: relative; }
